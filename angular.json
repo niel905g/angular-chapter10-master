@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-chapter10-master": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-chapter10-master"
+    }
+  },
+  "defaultProject": "angular-chapter10-master",
+  "cli": {
+    "analytics": false
+  }
 }
